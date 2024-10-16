@@ -3,26 +3,69 @@
 																					<!-- NÃO USAR -->
 	<instant group="attack" spellid="140" name="Electrify" words="utori vis" level="34" mana="30" premium="1" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="30000" groupcooldown="2000" needlearn="0" script="attack/electrify.lua">
 		<vocation name="None" />
-		<vocation name="None" />
 	</instant>
 
 	<instant group="attack" spellid="139" name="Curse" words="utori mort" level="75" mana="30" premium="1" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="40000" groupcooldown="2000" needlearn="0" script="attack/curse.lua">
-		<vocation name="None" />
 		<vocation name="None" />
 	</instant>
 
 	<instant group="attack" spellid="142" name="Envenom" words="utori pox" level="50" mana="30" premium="1" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="40000" groupcooldown="2000" needlearn="0" script="attack/envenom.lua">
 		<vocation name="None" />
-		<vocation name="None" />
 	</instant>
 
 	<instant group="attack" spellid="141" name="Inflict Wound" words="utori kor" level="40" mana="30" premium="1" range="1" aggressive="1" needtarget="1" cooldown="30000" groupcooldown="2000" needlearn="0" script="attack/inflict_wound.lua">
-		<vocation name="None" />
 		<vocation name="None" />
 	</instant>
 
 	<instant group="attack" spellid="138" name="Ignite" words="utori flam" level="26" mana="30" premium="1" range="3" casterTargetOrDirection="1" aggressive="1" blockwalls="1" cooldown="30000" groupcooldown="2000" needlearn="0" script="attack/ignite.lua">
 		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="144" name="Cure Bleeding" words="exana kor" level="45" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_bleeding.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="145" name="Cure Burning" words="exana flam" level="30" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_burning.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="147" name="Cure Curse" words="exana mort" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_curse.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="392" name="Cure Splash" words="exana splash" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_splashed.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="395" name="Cure Bewitched" words="exana arcane" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_bewitched.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="146" name="Cure Electrification" words="exana vis" level="22" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_electrification.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="29" name="Cure Poison" words="exana pox" level="10" mana="30" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_poison.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="166" name="Practice Healing" words="exura dis" level="1" mana="5" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/practice_healing.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="support" spellid="90" name="Cancel Invisibility" words="exana ina" level="26" mana="200" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/cancel_invisibility.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="support" spellid="38" name="Creature Illusion" words="utevo res ina" level="23" mana="100" aggressive="0" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/creature_illusion.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="support" spellid="42" name="Food" words="exevo pan" level="14" mana="120" soul="1" cooldown="2000" groupcooldown="2000" aggressive="0" needlearn="0" script="support/food.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="support" spellid="45" name="Invisibility" words="utana vid" level="35" mana="440" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/invisible.lua">
 		<vocation name="None" />
 	</instant>
 
@@ -34,29 +77,17 @@
 	<!-- Ataque -->
 	<instant group="attack" spellid="169" name="Apprentice's Strike" words="exori min flam" level="8" mana="6" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/apprentice's_strike.lua">
 		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None"/>
 	</instant>
 
 	<instant group="attack" spellid="177" name="Buzz" words="exori infir vis" level="1" mana="6" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/buzz.lua">
 		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None"/>
 	</instant>
 
 	<instant group="attack" spellid="173" name="Chill Out" words="exevo infir frigo hur" level="1" mana="8" direction="1" cooldown="4000" groupcooldown="2000" needlearn="0" script="attack/chill_out.lua">
 		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None" />
-		<vocation name="None"/>
 	</instant>
 
 	<instant group="attack" spellid="172" name="Mud Attack" words="exori infir tera" level="1" mana="6" premium="0" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/mud_attack.lua">
-		<vocation name="None" />
 		<vocation name="None" />
 	</instant>
 
@@ -66,11 +97,73 @@
 
 	<instant group="attack" spellid="178" name="Scorch" words="exevo infir flam hur" level="1" mana="8" direction="1" cooldown="4000" groupcooldown="2000" needlearn="0" script="attack/scorch.lua">
 		<vocation name="None" />
+	</instant>
+
+	<!-- CURA -->
+
+	<instant group="healing" spellid="175" name="Bruise Bane" words="exura infir ico" level="1" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/bruise_bane.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="1" name="Light Healing" words="exura" level="8" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/light_healing.lua">
+		<vocation name="None" />
+	</instant>
+
+	<instant group="healing" spellid="174" name="Magic Patch" words="exura infir" level="1" mana="6" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/magic_patch.lua">
 		<vocation name="None" />
 	</instant>
 
 
 <!--============================================================================ APRENDIZ =================================================================== -->
+
+
+
+
+
+
+<!--============================================================================ TODOS =================================================================== -->
+<instant group="support" spellid="81" name="Levitate" words="exani hur" level="12" mana="50" premium="1" aggressive="0" cooldown="2000" groupcooldown="2000" params="1" needlearn="0" script="support/levitate.lua">
+	<vocation name="Sorcerer" />
+	<vocation name="Druid" />
+	<vocation name="Paladin" />
+	<vocation name="Guerreiro" />
+	<vocation name="Illusionist"/>
+	<vocation name="Master Sorcerer" />
+	<vocation name="Elder Druid" />
+	<vocation name="Royal Paladin" />
+	<vocation name="Barbaro" />
+	<vocation name="Arch Illusionist"/>
+</instant>
+
+
+<instant group="support" spellid="76" name="Magic Rope" words="exani tera" level="9" mana="20" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/magic_rope.lua">
+	<vocation name="Sorcerer" />
+	<vocation name="Druid" />
+	<vocation name="Paladin" />
+	<vocation name="Guerreiro" />
+	<vocation name="Illusionist"/>
+	<vocation name="Master Sorcerer" />
+	<vocation name="Elder Druid" />
+	<vocation name="Royal Paladin" />
+	<vocation name="Barbaro" />
+	<vocation name="Arch Illusionist"/>
+</instant>
+
+<instant group="support" spellid="39" name="Strong Haste" words="utani gran hur" level="20" mana="100" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/strong_haste.lua">
+	<vocation name="Sorcerer" />
+	<vocation name="Druid" />
+	<vocation name="Illusionist"/>
+	<vocation name="Master Sorcerer" />
+	<vocation name="Elder Druid" />
+	<vocation name="Arch Illusionist"/>
+</instant>
+
+<instant group="support" spellid="6" name="Haste" words="utani hur" level="14" mana="60" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/haste.lua">
+<vocation name="Paladin" />
+</instant>
+
+<!--============================================================================ TODOS =================================================================== -->
+
 
 
 
@@ -112,13 +205,48 @@
 		<vocation name="Barbaro" />
 	</instant>
 
-
-
 	<instant group="attack" spellid="107" name="Whirlwind Throw" words="exori hur" level="28" mana="40" premium="1" range="5" needtarget="1" blockwalls="1" needweapon="1" cooldown="6000" groupcooldown="2000" needlearn="0" script="attack/whirlwind_throw.lua">
 		<vocation name="Guerreiro" />
 		<vocation name="Barbaro" />
 	</instant>
 
+	<!-- CURA -->
+
+	<instant group="healing" spellid="158" name="Intense Wound Cleansing" words="exura gran ico" level="80" mana="200" premium="1" selftarget="1" aggressive="0" cooldown="600000" groupcooldown="1000" needlearn="0" script="healing/intense_wound_cleansing.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
+
+	<instant group="healing" spellid="123" name="Wound Cleansing" words="exura ico" level="8" mana="40" premium="0" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/wound_cleansing.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
+
+	<instant group="healing" spellid="102" name="Fair Wound Cleansing" words="exura med ico" level="300" mana="90" premium="1" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/fair_wound_cleansing.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
+
+	<!-- SUPPORT -->
+
+	<instant group="support" spellid="133" name="Blood Rage" words="utito tempo" level="60" mana="290" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/blood_rage.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
+
+	<instant group="support" spellid="237" name="Chivalrous Challenge" words="exeta amp res" level="150" mana="80" premium="1" aggressive="0" range="7" needtarget="1"  cooldown="2000" groupcooldown="2000" needlearn="0" script="support/chivalrous_challenge.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
+
+	<instant group="support" spellid="93" name="Challenge" words="exeta res" level="20" mana="30" premium="1" aggressive="0" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/challenge.lua">
+		<vocation name="Barbaro" />
+	</instant>
+
+	<instant group="support" spellid="131" name="Charge" words="utani tempo hur" level="25" mana="100" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/charge.lua">
+		<vocation name="Guerreiro" />
+		<vocation name="Barbaro" />
+	</instant>
 
 <!--============================================================================ GUERREIRO =================================================================== -->
 
@@ -141,9 +269,7 @@
 
 	<instant group="attack" spellid="89" name="Flame Strike" words="exori flam" level="14" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/flame_strike.lua">
 		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
 	</instant>
 
 	<instant group="attack" spellid="23" name="Great Energy Beam" words="exevo gran vis lux" level="29" mana="110" direction="1" cooldown="6000" groupcooldown="2000" needlearn="0" script="attack/great_energy_beam.lua">
@@ -153,11 +279,8 @@
 
 	<instant group="attack" spellid="88" name="Energy Strike" words="exori vis" level="12" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/energy_strike.lua">
 		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
 		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
+
 	</instant>
 
 	<instant group="attack" spellid="13" name="Energy Wave" words="exevo vis hur" level="38" mana="170" direction="1" cooldown="8000" groupcooldown="2000" needlearn="0" script="attack/energy_wave.lua">
@@ -212,8 +335,6 @@
 		<vocation name="Master Sorcerer" />
 	</instant>
 	<instant group="attack" spellid="397" name="Arcane Strike" words="exori ar" level="12" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="custom/illusionist_class/arcane_strike.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
 		<vocation name="Illusionist"/>
 		<vocation name="Arch Illusionist"/>
 	</instant>
@@ -232,7 +353,46 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
+
+	<instant group="attack" spellid="396" name="Adento Grav" words="adento grav" level="150" mana="370" premium="1" aggressive="1" blockwalls="1" cooldown="8000" groupcooldown="2000" script="custom/illusionist_class/adento_grav.lua">
+		<vocation name="Illusionist" />
+		<vocation name="Arch Illusionist" />
+	</instant>
 <!-- cura -->
+
+
+<!-- Support -->
+<instant group="support" spellid="20" name="Find Person" words="exiva" level="8" mana="20" aggressive="0" playernameparam="1" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/find_person.lua">
+	<vocation name="Sorcerer" />
+</instant>
+
+<instant group="support" spellid="9" name="Summon Creature" words="utevo res" level="25" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/summon_creature.lua">
+	<vocation name="Sorcerer" />
+</instant>
+
+<instant group="support" spellid="393" name="Fear" words="exevo phobia" level="80" mana="200" blockwalls="1" cooldown="10000" groupcooldown="2000" needlearn="0"  script="custom/illusionist_class/fear.lua">
+	<vocation name="Illusionist" />
+	<vocation name="Arch Illusionist" />
+</instant>
+
+<instant group="attack" spellid="390" name="Cruz" words="exevo cruz" level="38" mana="140" blockwalls="1" cooldown="4000" groupcooldown="2000" needlearn="0"  script="custom/illusionist_class/cruz.lua">
+	<vocation name="Illusionist" />
+	<vocation name="Arch Illusionist" />
+</instant>
+
+<instant group="attack" spellid="389" name="Evasion" words="exevo gran mas evasion" level="100" mana="1350" premium="1" selftarget="1" cooldown="40000" groupcooldown="4000" needlearn="0" script="custom/illusionist_class/evasion.lua">
+	<vocation name="Illusionist" />
+	<vocation name="Arch Illusionist" />
+</instant>
+
+<instant group="attack" spellid="391" name="Bewitched Curse" words="exevo witched" level="60" mana="75" premium="1" aggressive="1" range="4" casterTargetOrDirection="1" blockwalls="1" needtarget="1" cooldown="4000" groupcooldown="2000" script="custom/illusionist_class/bewitched_curse.lua">
+	<vocation name="Illusionist" />
+	<vocation name="Arch Illusionist" />
+</instant>
+
+<instant group="attack" spellid="394" name="Arcane Wave" words="exevo wave" level="40" mana="75" premium="1" aggressive="1" range="4" casterTargetOrDirection="1" blockwalls="1" needtarget="1" cooldown="4000" groupcooldown="2000" script="custom/illusionist_class/arcane_wave.lua">
+	<vocation name="Illusionist" />
+	<vocation name="Arch Illusionist" />
 
 
 
@@ -262,6 +422,61 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</instant>
+
+	<!-- cura -->
+
+	<instant group="healing" spellid="125" name="Divine Healing" words="exura san" level="35" mana="160" premium="0" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/divine_healing.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+	<instant group="healing" spellid="160" name="Intense Recovery" words="utura gran" level="100" mana="165" premium="1" aggressive="0" selftarget="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/intense_recovery.lua">
+		<vocation name="Paladin" />
+	</instant>
+
+	<instant group="healing" spellid="159" name="Recovery" words="utura" level="50" mana="75" premium="1" aggressive="0" selftarget="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/recovery.lua">
+		<vocation name="Paladin" />
+	</instant>
+
+	<instant group="healing" spellid="36" name="Salvation" words="exura gran san" level="60" mana="210" premium="1" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/salvation.lua">
+		<vocation name="Paladin" />
+	</instant>
+
+	<!-- Support -->
+
+	<instant group="support" spellid="268" name="Divine Empowerment" words="utevo grav san" level="300" mana="500" premium="1" selftarget="1" cooldown="32000" groupcooldown="2000" needlearn="0" blockwalls="1" script="support/divine_empowerment.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+	<instant group="support" spellid="10" name="Light" words="utevo lux" level="8" mana="20" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/light.lua">
+	<vocation name="Paladin" />
+	</instant>
+
+	<instant group="support" spellid="132" name="Protector" words="utamo tempo" level="55" mana="200" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/protector.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+	<instant group="support" spellid="75" name="Ultimate Light" words="utevo vis lux" level="26" mana="140" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/ultimate_light.lua">
+		<vocation name="Paladin" />
+	</instant>
+
+	<instant group="support" spellid="129" name="Enchant Party" words="utori mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/enchant_party.lua">
+		<vocation name="Paladin" />
+	</instant>
+
+	<instant group="support" spellid="127" name="Protect Party" words="utamo mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/protect_party.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+	<instant group="support" spellid="126" name="Train Party" words="utito mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/train_party.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+
 <!--============================================================================ PALADINO=================================================================== -->
 
 
@@ -285,10 +500,6 @@
 	</instant>
 
 	<instant group="attack" spellid="112" name="Ice Strike" words="exori frigo" level="15" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/ice_strike.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Master Sorcerer" />
-		<vocation name="Illusionist"/>
-		<vocation name="Arch Illusionist"/>
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
@@ -314,12 +525,8 @@
 	</instant>
 
 	<instant group="attack" spellid="113" name="Terra Strike" words="exori tera" level="13" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/terra_strike.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Master Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Arch Illusionist"/>
 	</instant>
 
 	<instant group="attack" spellid="120" name="Terra Wave" words="exevo tera hur" level="38" mana="210" direction="1" cooldown="4000" groupcooldown="2000" needlearn="0" script="attack/terra_wave.lua">
@@ -343,6 +550,58 @@
 		<vocation name="Elder Druid" />
 	</instant>
 
+	<!-- cura -->
+
+	<instant group="healing" spellid="84" name="Heal Friend" words="exura sio" level="18" mana="140" premium="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/heal_friend.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	<instant group="healing" spellid="101" name="Natures Embrace" words="exura gran sio" level="300" mana="400" premium="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/natures_embrace.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	<instant group="healing" spellid="2" name="Intense Healing" words="exura gran" level="20" mana="70" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/intense_healing.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	<instant group="healing" spellid="82" name="Mass Healing" words="exura gran mas res" level="36" mana="150" premium="1" aggressive="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="healing/mass_healing.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	
+	<instant group="healing" spellid="3" name="Ultimate Healing" words="exura vita" level="30" mana="160" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/ultimate_healing.lua">
+	<vocation name="Druid" />
+	</instant>
+
+	<instant group="healing" spellid="103" name="Restoration" words="exura max vita" level="300" mana="260" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/restoration.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	<!-- Support -->
+
+	<instant group="support" spellid="11" name="Great Light" words="utevo gran lux" level="13" mana="60" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/great_light.lua">
+	<vocation name="Druid" />
+	</instant>
+
+	<instant group="support" spellid="44" name="Magic Shield" words="utamo vita" level="14" mana="50" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/magic_shield.lua">
+	<vocation name="Druid" />
+	</instant>
+
+	<instant group="support" spellid="128" name="Heal Party" words="utura mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/heal_party.lua">
+		<vocation name="Druid" />
+		<vocation name="Elder Druid" />
+	</instant>
+
+	
+
+
+
+
 <!--============================================================================ ALQUIMISTA =================================================================== -->
 
 
@@ -360,11 +619,23 @@
 	</instant>
 
 	<instant group="attack" spellid="148" name="Physical Strike" words="exori moe ico" level="16" mana="20" premium="1" range="3" casterTargetOrDirection="1" blockwalls="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/physical_strike.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
 	</instant>
 
 	<instant group="attack" spellid="57" name="Strong Ethereal Spear" words="exori gran con" level="90" mana="55" premium="1" range="7" needtarget="1" cooldown="8000" groupcooldown="2000" blockwalls="1" needlearn="0" script="attack/strong_ethereal_spear.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
+
+	<!-- supporte -->
+
+
+	<instant group="support" secondarygroup="healing" spellid="135" name="Sharpshooter" words="utito tempo san" level="60" mana="450" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="10000" secondarygroupcooldown="10000" needlearn="0" script="support/sharpshooter.lua">
+	<vocation name="Paladin" />
+	</instant>
+
+	<instant group="support" spellid="134" name="Swift Foot" words="utamo tempo san" level="55" mana="400" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/swift_foot.lua">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</instant>
@@ -380,374 +651,8 @@
 
 
 
+	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Healing Spells -->
-	<instant group="healing" spellid="175" name="Bruise Bane" words="exura infir ico" level="1" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/bruise_bane.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="144" name="Cure Bleeding" words="exana kor" level="45" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_bleeding.lua">
-		<vocation name="Druid" />
-		<vocation name="Guerreiro" />
-		<vocation name="Elder Druid" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="145" name="Cure Burning" words="exana flam" level="30" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_burning.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="healing" spellid="147" name="Cure Curse" words="exana mort" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_curse.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="healing" spellid="392" name="Cure Splash" words="exana splash" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_splashed.lua">
-		<vocation name="Paladin" />
-		<vocation name="Druid" />
-		<vocation name="Guerreiro" />
-		<vocation name="Sorcerer"/>
-		<vocation name="Royal Paladin" />
-		<vocation name="Elder Druid" />
-		<vocation name="Barbaro" />
-		<vocation name="Master Sorcerer" />
-	</instant>
-	<instant group="healing" spellid="395" name="Cure Bewitched" words="exana arcane" level="80" mana="40" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_bewitched.lua">
-		<vocation name="Paladin" />
-		<vocation name="Druid" />
-		<vocation name="Guerreiro" />
-		<vocation name="Sorcerer"/>
-		<vocation name="Royal Paladin" />
-		<vocation name="Elder Druid" />
-		<vocation name="Barbaro" />
-		<vocation name="Master Sorcerer" />
-	</instant>
-	<instant group="healing" spellid="146" name="Cure Electrification" words="exana vis" level="22" mana="30" premium="1" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_electrification.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="healing" spellid="29" name="Cure Poison" words="exana pox" level="10" mana="30" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/cure_poison.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="125" name="Divine Healing" words="exura san" level="35" mana="160" premium="0" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/divine_healing.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="healing" spellid="84" name="Heal Friend" words="exura sio" level="18" mana="140" premium="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/heal_friend.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="healing" spellid="101" name="Natures Embrace" words="exura gran sio" level="300" mana="400" premium="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/natures_embrace.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="healing" spellid="2" name="Intense Healing" words="exura gran" level="20" mana="70" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/intense_healing.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="160" name="Intense Recovery" words="utura gran" level="100" mana="165" premium="1" aggressive="0" selftarget="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/intense_recovery.lua">
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="158" name="Intense Wound Cleansing" words="exura gran ico" level="80" mana="200" premium="1" selftarget="1" aggressive="0" cooldown="600000" groupcooldown="1000" needlearn="0" script="healing/intense_wound_cleansing.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="1" name="Light Healing" words="exura" level="8" mana="20" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/light_healing.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="174" name="Magic Patch" words="exura infir" level="1" mana="6" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/magic_patch.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="82" name="Mass Healing" words="exura gran mas res" level="36" mana="150" premium="1" aggressive="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="healing/mass_healing.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="healing" spellid="166" name="Practice Healing" words="exura dis" level="1" mana="5" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/practice_healing.lua">
-		<vocation name="None" />
-	</instant>
-	<instant group="healing" spellid="159" name="Recovery" words="utura" level="50" mana="75" premium="1" aggressive="0" selftarget="1" cooldown="60000" groupcooldown="1000" needlearn="0" script="healing/recovery.lua">
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="36" name="Salvation" words="exura gran san" level="60" mana="210" premium="1" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/salvation.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="healing" spellid="3" name="Ultimate Healing" words="exura vita" level="30" mana="160" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/ultimate_healing.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="103" name="Restoration" words="exura max vita" level="300" mana="260" aggressive="0" selftarget="1" cooldown="6000" groupcooldown="1000" needlearn="0" script="healing/restoration.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="healing" spellid="123" name="Wound Cleansing" words="exura ico" level="8" mana="40" premium="0" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/wound_cleansing.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="healing" spellid="102" name="Fair Wound Cleansing" words="exura med ico" level="300" mana="90" premium="1" selftarget="1" aggressive="0" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/fair_wound_cleansing.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-
-	<!-- Support Spells -->
-	<instant group="support" spellid="268" name="Divine Empowerment" words="utevo grav san" level="300" mana="500" premium="1" selftarget="1" cooldown="32000" groupcooldown="2000" needlearn="0" blockwalls="1" script="support/divine_empowerment.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="support" spellid="133" name="Blood Rage" words="utito tempo" level="60" mana="290" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/blood_rage.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="support" spellid="237" name="Chivalrous Challenge" words="exeta amp res" level="150" mana="80" premium="1" aggressive="0" range="7" needtarget="1"  cooldown="2000" groupcooldown="2000" needlearn="0" script="support/chivalrous_challenge.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="support" spellid="90" name="Cancel Invisibility" words="exana ina" level="26" mana="200" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/cancel_invisibility.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="support" spellid="93" name="Challenge" words="exeta res" level="20" mana="30" premium="1" aggressive="0" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/challenge.lua">
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="support" spellid="131" name="Charge" words="utani tempo hur" level="25" mana="100" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/charge.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="support" spellid="38" name="Creature Illusion" words="utevo res ina" level="23" mana="100" aggressive="0" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/creature_illusion.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="20" name="Find Person" words="exiva" level="8" mana="20" aggressive="0" playernameparam="1" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/find_person.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="42" name="Food" words="exevo pan" level="14" mana="120" soul="1" cooldown="2000" groupcooldown="2000" aggressive="0" needlearn="0" script="support/food.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="support" spellid="11" name="Great Light" words="utevo gran lux" level="13" mana="60" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/great_light.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="6" name="Haste" words="utani hur" level="14" mana="60" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/haste.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="45" name="Invisibility" words="utana vid" level="35" mana="440" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/invisible.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="81" name="Levitate" words="exani hur" level="12" mana="50" premium="1" aggressive="0" cooldown="2000" groupcooldown="2000" params="1" needlearn="0" script="support/levitate.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="10" name="Light" words="utevo lux" level="8" mana="20" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/light.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="76" name="Magic Rope" words="exani tera" level="9" mana="20" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/magic_rope.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Paladin" />
-		<vocation name="Guerreiro" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Royal Paladin" />
-		<vocation name="Barbaro" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="44" name="Magic Shield" words="utamo vita" level="14" mana="50" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/magic_shield.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="132" name="Protector" words="utamo tempo" level="55" mana="200" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/protector.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
-	<instant group="support" secondarygroup="healing" spellid="135" name="Sharpshooter" words="utito tempo san" level="60" mana="450" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="10000" secondarygroupcooldown="10000" needlearn="0" script="support/sharpshooter.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="support" spellid="39" name="Strong Haste" words="utani gran hur" level="20" mana="100" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/strong_haste.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="9" name="Summon Creature" words="utevo res" level="25" params="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/summon_creature.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-	<instant group="support" spellid="134" name="Swift Foot" words="utamo tempo san" level="55" mana="400" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/swift_foot.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="support" spellid="75" name="Ultimate Light" words="utevo vis lux" level="26" mana="140" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/ultimate_light.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Druid" />
-		<vocation name="Illusionist"/>
-		<vocation name="Master Sorcerer" />
-		<vocation name="Elder Druid" />
-		<vocation name="Arch Illusionist"/>
-	</instant>
-
-	<!-- Party Spells -->
-	<instant group="support" spellid="129" name="Enchant Party" words="utori mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/enchant_party.lua">
-		<vocation name="Sorcerer" />
-		<vocation name="Master Sorcerer" />
-	</instant>
-	<instant group="support" spellid="128" name="Heal Party" words="utura mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/heal_party.lua">
-		<vocation name="Druid" />
-		<vocation name="Elder Druid" />
-	</instant>
-	<instant group="support" spellid="127" name="Protect Party" words="utamo mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/protect_party.lua">
-		<vocation name="Paladin" />
-		<vocation name="Royal Paladin" />
-	</instant>
-	<instant group="support" spellid="126" name="Train Party" words="utito mas sio" level="32" mana="0" premium="1" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="party/train_party.lua">
-		<vocation name="Guerreiro" />
-		<vocation name="Barbaro" />
-	</instant>
 
 	<!-- Attack Runes -->
 	<rune group="attack" spellid="115" name="Avalanche Rune" id="2274" allowfaruse="1" charges="4" level="30" magiclevel="4" cooldown="2000" groupcooldown="2000" script="attack/avalanche_rune.lua" />
@@ -1078,30 +983,9 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant group="attack" spellid="389" name="Evasion" words="exevo gran mas evasion" level="100" mana="1350" premium="1" selftarget="1" cooldown="40000" groupcooldown="4000" needlearn="0" script="custom/illusionist_class/evasion.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
+	
 	</instant>
-	<instant group="attack" spellid="390" name="Cruz" words="exevo cruz" level="38" mana="140" blockwalls="1" cooldown="4000" groupcooldown="2000" needlearn="0"  script="custom/illusionist_class/cruz.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
-	</instant>
-	<instant group="attack" spellid="391" name="Bewitched Curse" words="exevo witched" level="60" mana="75" premium="1" aggressive="1" range="4" casterTargetOrDirection="1" blockwalls="1" needtarget="1" cooldown="4000" groupcooldown="2000" script="custom/illusionist_class/bewitched_curse.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
-	</instant>
-	<instant group="support" spellid="393" name="Fear" words="exevo phobia" level="80" mana="200" blockwalls="1" cooldown="10000" groupcooldown="2000" needlearn="0"  script="custom/illusionist_class/fear.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
-	</instant>
-	<instant group="attack" spellid="394" name="Arcane Wave" words="exevo wave" level="40" mana="75" premium="1" aggressive="1" range="4" casterTargetOrDirection="1" blockwalls="1" needtarget="1" cooldown="4000" groupcooldown="2000" script="custom/illusionist_class/arcane_wave.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
-	</instant>
-	<instant group="attack" spellid="396" name="Adento Grav" words="adento grav" level="150" mana="370" premium="1" aggressive="1" blockwalls="1" cooldown="8000" groupcooldown="2000" script="custom/illusionist_class/adento_grav.lua">
-		<vocation name="Illusionist" />
-		<vocation name="Arch Illusionist" />
-	</instant>
+	
 
 	<!-- House Spells -->
 	<instant name="Edit Door" words="aleta grav" aggressive="0" script="house/edit_door.lua" />
